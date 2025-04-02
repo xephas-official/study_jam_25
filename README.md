@@ -64,6 +64,8 @@ Set up development environment and run the starter template app on an emulator o
 **Exercise:**
 Build a profile card UI with photo, name, and description using various widgets.
 
+![profile](exercises/profile.png)
+
 ---
 
 ### Session 4: Building a Simple UI (120 min)
@@ -82,12 +84,15 @@ Build a profile card UI with photo, name, and description using various widgets.
 - Create responsive interfaces
 
 **Exercise:**
-Build a news app home screen with:
+Build a home screen with:
 
 - App bar with title
-- Featured article card
-- Scrollable list of news items
+- Featured card
+- Scrollable list of items
 - Each item containing image, headline, and brief description
+
+![stock](exercises/stock.png)
+Source: Stock Page in Eduuka.app [Flutter Library](https://eduuka.app)
 
 ---
 
@@ -135,6 +140,9 @@ Build a product catalog app with:
 - Detail page that receives and displays product data
 - Back navigation with proper state preservation
 
+![products](exercises/products.png)
+Source [Flutter Library](https://www.flutterlibrary.com/screens/shop-product-page)
+
 ---
 
 ### Session 3: Forms and User Input (60 min)
@@ -160,6 +168,9 @@ Create a contact form with:
 - Submit button with loading state
 - Success/error dialogs
 
+![contact](exercises/contact.png)
+Source [Flutter Library](https://www.flutterlibrary.com/screens/profile-edit-page)
+
 ---
 
 ### Session 4: API Integration (90 min)
@@ -178,12 +189,9 @@ Create a contact form with:
 - Handle network errors gracefully
 
 **Exercise:**
-Build a weather app that:
+Make an API Call using http package to fetch and display data:
 
-- Fetches data from a weather API
-- Displays current conditions and forecast
-- Shows loading indicators and error messages
-- Implements pull-to-refresh
+[Fetching Data from Internet](https://docs.flutter.dev/cookbook/networking/fetch-data)
 
 ---
 
@@ -205,11 +213,11 @@ Build a weather app that:
 - Choose appropriate storage solutions
 
 **Exercise:**
-Create a task management app that:
+Use SharedPreferences to save user preferences:
 
-- Saves tasks to a local database
-- Allows adding, completing, and deleting tasks
-- Persists data between app restarts
+- Save and retrieve user info from the contact form above
+
+[CookBook on Flutter Site](https://docs.flutter.dev/cookbook/persistence/key-value)
 
 ---
 
@@ -229,12 +237,10 @@ Create a task management app that:
 - Enhance UI with motion
 
 **Exercise:**
-Add animations to the product catalog app:
+Show use case of the animations package:
 
-- List item entrance animations
-- Page transition effects
-- Button press animations
-- Loading state indicators
+- [animations](https://pub.dev/packages/animations)
+- [flutter_animate](https://pub.dev/packages/flutter_animate)
 
 ---
 
@@ -258,12 +264,14 @@ Profile and optimize one of the previously built apps:
 
 - Identify unnecessary rebuilds
 - Implement const constructors
-- Use Flutter DevTools to find memory issues
-- Apply lazy loading for lists
+
+Show Use of Very Good Analysis Package to improve performance:
+
+- [very_good_analysis](https://pub.dev/packages/very_good_analysis)
 
 ---
 
-### Session 4: Final Project (150 min)
+### Session 4: Final Project (150 min) for Personal or Group Work
 
 **Topics:**
 
@@ -300,3 +308,9 @@ Create an e-commerce app that integrates:
 - Flutter DevTools guide: [flutter.dev/docs/development/tools/devtools](https://flutter.dev/docs/development/tools/devtools)
 
 ---
+
+Kindly star this repository if you find it useful. Your support helps us improve and create more resources for the community. Thank you!
+
+Additionaly, Star [The Cupertino Icons Gallery](https://github.com/capps096github/cupertino_icons_gallery) that I creeated for the Flutter Community.
+
+![Star](https://img.shields.io/github/stars/capps096github/cupertino_icons_gallery?style=social)
