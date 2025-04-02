@@ -11,14 +11,16 @@
 **Topics:**
 
 - What is Flutter and why use it?
-- Dart language essentials
+- [Dart language essentials](https://dart.dev/language)
 - Flutter architecture overview
 - Hot reload and development workflow
+- Everything is a [widget](https://docs.flutter.dev/ui/widgets)
 
 **Learning Objectives:**
 
 - Understand Flutter's positioning in the mobile development ecosystem
-- Grasp basic Dart syntax for Flutter development
+- Grasp basic Dart syntax for Flutter development (Attach Screenshot)
+- [Material Design](https://m3.material.io/)
 - Comprehend Flutter's widget-based architecture
 
 **Exercise:**
@@ -27,6 +29,10 @@ Create your first "Hello, Flutter!" app and experiment with hot reload.
 ---
 
 ### Session 2: Development Environment Setup (45 min)
+
+[Step By Step Guide](https://youtu.be/FwoXqWdT1yE?si=fNaOoA0KvgQU_-dQ)
+
+[Install using VS Code](https://docs.flutter.dev/get-started/install/windows/mobile#190-tab-panel)
 
 **Topics:**
 
@@ -102,6 +108,7 @@ Source: Stock Page in Eduuka.app [Flutter Library](https://eduuka.app)
 
 **Topics:**
 
+- [Layouts](https://docs.flutter.dev/ui/layout/tutorial#add-the-titlesection-widget)
 - Understanding app state
 - setState and ephemeral state
 - InheritedWidget and scoped state
