@@ -10,7 +10,18 @@ class ProductPage extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(title: const Text('Stock'), backgroundColor: Colors.white),
 
-      body: Column(children: [SizedBox(height: 10), ProductTile()]),
+      body: Column(
+        children: [
+          SizedBox(height: 10),
+
+          ProductTile(),
+          ProductTile(),
+          ProductTile(),
+          ProductTile(),
+          ProductTile(),
+          ProductTile(),
+        ],
+      ),
     );
   }
 }

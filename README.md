@@ -1,4 +1,6 @@
-# 3-Day Flutter Training Roadmap
+# 3-Day Flutter Study Jams Roadmap (2nd - 4th April 2025)
+
+The Flutter Study Jams 2025 was an engaging 3-day informative series of Flutter trainings conducted from 2nd - 4th April 2025. The event was designed to help participants learn and master Flutter, a powerful UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. The sessions covered the basics of Flutter, advanced techniques for building complex apps, and much more. Attendees can find their certificates in the [certificate_jams_25 repository](https://github.com/xephas-official/certificate_jam_25) to show off their Flutter skills.
 
 ## From Zero to Building Complex Mobile Applications
 
