@@ -53,6 +53,8 @@ class ProfilePage extends StatelessWidget {
           ProfileTile(icon: Icons.settings, label: 'Settings'),
           ProfileTile(icon: Icons.help, label: 'Help Center'),
           ProfileTile(icon: Icons.logout, label: 'Logout'),
+
+          
         ],
       ),
     );

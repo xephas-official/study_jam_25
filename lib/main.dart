@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:study_jam_25/home/home.dart';
+import 'package:study_jam_25/product/product.dart';
 import 'package:study_jam_25/profile/profile.dart';
 
 void main() {
@@ -15,7 +17,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
       ),
-      home: const ProfilePage(),
+      // home: const ProfilePage(),
+      // home: const ProductPage(),
+      home: HomePage(),
       // home: const MyHomePage(title: 'Study Jamz'),
     );
   }
