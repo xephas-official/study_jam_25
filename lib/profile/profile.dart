@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:study_jam_25/profile/profile_tile.dart';
 
+import 'profile_pic.dart';
+
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
 
@@ -16,10 +18,8 @@ class ProfilePage extends StatelessWidget {
       body: Column(
         children: [
           SizedBox(height: 10),
-          //
-          Center(
-            child: CircleAvatar(backgroundColor: Colors.lightBlue, radius: 80),
-          ),
+          
+          ProfilePic(),
 
           // row with an icon, text and trailing
           Container(
