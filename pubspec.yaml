@@ -13,6 +13,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  flutter_svg: ^2.0.17
 
 dev_dependencies:
   flutter_test:
