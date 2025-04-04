@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:study_jam_25/home/home.dart';
-import 'package:study_jam_25/product/product.dart';
-import 'package:study_jam_25/profile/profile.dart';
 
 void main() {
   runApp(const MyApp());
