@@ -16,6 +16,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
       ),
+      // ! Error
+      // * Error
+      // ? Error
+      // ! Error
+
       // home: const ProfilePage(),
       // home: const ProductPage(),
       home: HomePage(),

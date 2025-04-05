@@ -14,16 +14,11 @@ class HomePage extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    /// using the provider to get the value of the counter
     final counter = ref.watch(counterProvider);
 
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(
-        title: const Text('Study Jams'),
-        backgroundColor: Colors.white,
-      ),
-
+      appBar: AppBar(title: Text('Study Jams'), backgroundColor: Colors.white),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -32,97 +27,105 @@ class HomePage extends ConsumerWidget {
             AppButton(
               label: 'Go to Profile',
               onPressed: () {
-                // push to move to next page
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const ProfilePage()),
                 );
-
-                // pop to go back to previous page
-                // Navigator.pop(context);
               },
             ),
-
-            // go to stock page
             AppButton(
               label: 'Go to Product',
-              color: Colors.green,
+              color: Colors.blue,
               onPressed: () {
-                // push to move to next page
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const ProductPage()),
                 );
-
-                // pop to go back to previous page
-                // Navigator.pop(context);
               },
             ),
-
-            // go to counter page
+            AppButton(
+              label: 'Go to Product',
+              color: Colors.green,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const ProductPage()),
+                );
+              },
+            ),
+            AppButton(
+              label: 'New Feature',
+              color: Colors.purple,
+              onPressed: () {
+                showDialog(
+                  context: context,
+                  builder: (BuildContext context) {
+                    return AlertDialog(
+                      title: const Text('Coming Soon'),
+                      content: const Text('This feature is under development.'),
+                      actions: [
+                        TextButton(
+                          onPressed: () {
+                            Navigator.of(context).pop();
+                          },
+                          child: const Text('OK'),
+                        ),
+                      ],
+                    );
+                  },
+                );
+              },
+            ),
+            AppButton(
+              label: 'Go to Product',
+              color: Colors.green,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const ProductPage()),
+                );
+              },
+            ),
             AppButton(
               label: 'Go to Counter',
               color: Colors.pink,
               onPressed: () {
-                // push to move to next page
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const CounterPage()),
                 );
-
-                // pop to go back to previous page
-                // Navigator.pop(context);
               },
             ),
-            // go to counter page
             AppButton(
               label: 'Counter with State ($counter)',
               color: Colors.deepOrange,
               onPressed: () {
-                // push to move to next page
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => const CounterWithState(),
                   ),
                 );
-
-                // pop to go back to previous page
-                // Navigator.pop(context);
               },
             ),
-            // go to counter page
             AppButton(
               label: 'Go to Form',
               color: Colors.black,
-
               onPressed: () {
-                // push to move to next page
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => const FormPage()),
                 );
-
-                // pop to go back to previous page
-                // Navigator.pop(context);
               },
             ),
-            // go to counter page
             AppButton(
               label: 'Go to CopyPaste',
               color: Colors.red,
-
               onPressed: () {
-                // push to move to next page
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                    builder: (context) => const CallHistoryScreen(),
-                  ),
+                  MaterialPageRoute(builder: (context) => CallHistoryScreen()),
                 );
-
-                // pop to go back to previous page
-                // Navigator.pop(context);
               },
             ),
           ],
